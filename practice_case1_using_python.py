@@ -13,14 +13,13 @@ FOLDERNAME = 'practice-case-1'
 FILENAME = 'file-in-GCP.txt'
 
 # Define the file that'll be uploaded
-UPLOADED_FILENAME = 'uploaded-file.txt'
+UPLOADED_FILENAME = 'uploaded-file-using-docker.txt'
 
 # Create a bucket object
 bucket = storage_client.get_bucket(BUCKET_NAME)
 
 # Define the path and name of the file that'll uploaded to GCP bucket
 bucketpath = '{}/{}'.format(FOLDERNAME,FILENAME)
-# upload_filename ='%s/%s' % ('practice-case-1','iykra-practice-1.txt')
 
 # Create the file following the defined path
 blob = bucket.blob(bucketpath)
