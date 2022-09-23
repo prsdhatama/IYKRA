@@ -1,0 +1,22 @@
+[2022-09-23 14:15:57,663] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: iykra_dag._extract_ethereum_price manual__2022-09-23T14:15:56.592920+00:00 [queued]>
+[2022-09-23 14:15:57,670] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: iykra_dag._extract_ethereum_price manual__2022-09-23T14:15:56.592920+00:00 [queued]>
+[2022-09-23 14:15:57,671] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-23 14:15:57,671] {taskinstance.py:1239} INFO - Starting attempt 1 of 1
+[2022-09-23 14:15:57,671] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-23 14:15:57,681] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): _extract_ethereum_price> on 2022-09-23 14:15:56.592920+00:00
+[2022-09-23 14:15:57,684] {standard_task_runner.py:52} INFO - Started process 164 to run task
+[2022-09-23 14:15:57,686] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'iykra_dag', '_extract_ethereum_price', 'manual__2022-09-23T14:15:56.592920+00:00', '--job-id', '56', '--raw', '--subdir', 'DAGS_FOLDER/pushpull_iykra.py', '--cfg-path', '/tmp/tmpd4ilp1f1', '--error-file', '/tmp/tmp4cpr9hu3']
+[2022-09-23 14:15:57,687] {standard_task_runner.py:77} INFO - Job 56: Subtask _extract_ethereum_price
+[2022-09-23 14:15:57,723] {logging_mixin.py:109} INFO - Running <TaskInstance: iykra_dag._extract_ethereum_price manual__2022-09-23T14:15:56.592920+00:00 [running]> on host 9ab9fcef6297
+[2022-09-23 14:15:57,762] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=iykra_dag
+AIRFLOW_CTX_TASK_ID=_extract_ethereum_price
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-23T14:15:56.592920+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-09-23T14:15:56.592920+00:00
+[2022-09-23 14:15:58,108] {python.py:175} INFO - Done. Returned value was: {'usd': 1282.34, 'usd_market_cap': 154409858906.3171, 'usd_24h_vol': 17348503905.359344, 'usd_24h_change': 0.4423683488703677, 'last_updated_at': 1663942484}
+[2022-09-23 14:15:58,121] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=iykra_dag, task_id=_extract_ethereum_price, execution_date=20220923T141556, start_date=20220923T141557, end_date=20220923T141558
+[2022-09-23 14:15:58,139] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-09-23 14:15:58,162] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

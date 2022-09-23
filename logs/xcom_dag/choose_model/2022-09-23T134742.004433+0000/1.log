@@ -1,0 +1,24 @@
+[2022-09-23 13:47:48,209] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: xcom_dag.choose_model manual__2022-09-23T13:47:42.004433+00:00 [queued]>
+[2022-09-23 13:47:48,215] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: xcom_dag.choose_model manual__2022-09-23T13:47:42.004433+00:00 [queued]>
+[2022-09-23 13:47:48,215] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-23 13:47:48,215] {taskinstance.py:1239} INFO - Starting attempt 1 of 1
+[2022-09-23 13:47:48,215] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-23 13:47:48,224] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): choose_model> on 2022-09-23 13:47:42.004433+00:00
+[2022-09-23 13:47:48,227] {standard_task_runner.py:52} INFO - Started process 21942 to run task
+[2022-09-23 13:47:48,229] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'xcom_dag', 'choose_model', 'manual__2022-09-23T13:47:42.004433+00:00', '--job-id', '50', '--raw', '--subdir', 'DAGS_FOLDER/xcom_tester.py', '--cfg-path', '/tmp/tmpr07jz_ic', '--error-file', '/tmp/tmpzk3pecp9']
+[2022-09-23 13:47:48,229] {standard_task_runner.py:77} INFO - Job 50: Subtask choose_model
+[2022-09-23 13:47:48,263] {logging_mixin.py:109} INFO - Running <TaskInstance: xcom_dag.choose_model manual__2022-09-23T13:47:42.004433+00:00 [running]> on host 9ab9fcef6297
+[2022-09-23 13:47:48,294] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=xcom_dag
+AIRFLOW_CTX_TASK_ID=choose_model
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-23T13:47:42.004433+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-09-23T13:47:42.004433+00:00
+[2022-09-23 13:47:48,294] {logging_mixin.py:109} INFO - choose best model
+[2022-09-23 13:47:48,299] {logging_mixin.py:109} INFO - [7.474676982557555, 4.420763478786199, 1.8930072576315515]
+[2022-09-23 13:47:48,299] {python.py:175} INFO - Done. Returned value was: None
+[2022-09-23 13:47:48,306] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=xcom_dag, task_id=choose_model, execution_date=20220923T134742, start_date=20220923T134748, end_date=20220923T134748
+[2022-09-23 13:47:48,322] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-09-23 13:47:48,338] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
