@@ -18,7 +18,7 @@ tmp2 as (
   SELECT 
     channelGrouping,
     ARRAY_AGG(struct(geoNetwork_country, PARSE_DATE("%Y%m%d", date) AS date)) AS repeatedcols,
-    ARRAY_AGG( tmp1.tt ) AS TransactionTotal
+    ARRAY_AGG( tmp1.tt ) AS TotalTransaction
   FROM tmp1
   GROUP BY 1
 )
@@ -27,9 +27,9 @@ SELECT
   channelGrouping,
   ARRAY(SELECT AS STRUCT 
      geoNetwork_country AS Country,
-     ARRAY_AGG(DISTINCT date) AS date
+     ARRAY_AGG(DISTINCT date ORDER BY date) AS date
    FROM UNNEST(repeatedcols)
    GROUP BY 1
    ) AS agg,
-   tmp2.TransactionTotal
+   tmp2.TotalTransaction
 FROM tmp2
