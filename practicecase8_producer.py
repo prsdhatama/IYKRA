@@ -34,8 +34,14 @@ def send_record():
     header = next(csvreader)
     for row in csvreader:
         key = {"Date": (str(row[0]))}
-        value = {"Date": (str(row[0])), "Open": float(row[1]), "High": float(row[2]), "Low": float(row[3]), "Close": float(row[4]),"Volume":str(row[5]),"Market_Cap":str(row[6])}
-   
+        value = {"Date": (str(row[0])), 
+                "Open": float(row[1]), 
+                "High": float(row[2]), 
+                "Low": float(row[3]), 
+                "Close": float(row[4]),
+                "Volume":str(row[5]),
+                "Market_Cap":str(row[6])}
+        
 
         try:
             producer.produce(topic='btc', key=key, value=value)
