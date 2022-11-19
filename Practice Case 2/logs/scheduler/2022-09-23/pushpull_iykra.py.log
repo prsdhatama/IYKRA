@@ -1,0 +1,115 @@
+[2022-09-23 14:13:47,083] {processor.py:163} INFO - Started process (PID=29) to work on /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:13:47,083] {processor.py:642} INFO - Processing file /opt/airflow/dags/pushpull_iykra.py for tasks to queue
+[2022-09-23 14:13:47,084] {logging_mixin.py:109} INFO - [2022-09-23 14:13:47,084] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:13:47,111] {processor.py:654} INFO - DAG(s) dict_keys(['iykra_dag']) retrieved from /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:13:48,691] {logging_mixin.py:109} INFO - [2022-09-23 14:13:48,691] {manager.py:496} INFO - Created Permission View: can read on DAG:iykra_dag
+[2022-09-23 14:13:48,696] {logging_mixin.py:109} INFO - [2022-09-23 14:13:48,696] {manager.py:496} INFO - Created Permission View: can edit on DAG:iykra_dag
+[2022-09-23 14:13:48,698] {logging_mixin.py:109} INFO - [2022-09-23 14:13:48,696] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-09-23 14:13:48,702] {logging_mixin.py:109} INFO - [2022-09-23 14:13:48,701] {dag.py:2415} INFO - Creating ORM DAG for iykra_dag
+[2022-09-23 14:13:48,706] {logging_mixin.py:109} INFO - [2022-09-23 14:13:48,706] {dag.py:2935} INFO - Setting next_dagrun for iykra_dag to 2022-09-22 00:00:00+00:00
+[2022-09-23 14:13:48,714] {processor.py:171} INFO - Processing /opt/airflow/dags/pushpull_iykra.py took 1.633 seconds
+[2022-09-23 14:14:18,993] {processor.py:163} INFO - Started process (PID=123) to work on /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:14:18,994] {processor.py:642} INFO - Processing file /opt/airflow/dags/pushpull_iykra.py for tasks to queue
+[2022-09-23 14:14:18,994] {logging_mixin.py:109} INFO - [2022-09-23 14:14:18,994] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:14:19,012] {processor.py:654} INFO - DAG(s) dict_keys(['iykra_dag']) retrieved from /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:14:19,017] {logging_mixin.py:109} INFO - [2022-09-23 14:14:19,017] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-09-23 14:14:19,025] {logging_mixin.py:109} INFO - [2022-09-23 14:14:19,025] {dag.py:2935} INFO - Setting next_dagrun for iykra_dag to 2022-09-22 00:00:00+00:00
+[2022-09-23 14:14:19,030] {processor.py:171} INFO - Processing /opt/airflow/dags/pushpull_iykra.py took 0.038 seconds
+[2022-09-23 14:14:49,184] {processor.py:163} INFO - Started process (PID=145) to work on /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:14:49,184] {processor.py:642} INFO - Processing file /opt/airflow/dags/pushpull_iykra.py for tasks to queue
+[2022-09-23 14:14:49,185] {logging_mixin.py:109} INFO - [2022-09-23 14:14:49,185] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:14:49,207] {processor.py:654} INFO - DAG(s) dict_keys(['iykra_dag']) retrieved from /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:14:49,212] {logging_mixin.py:109} INFO - [2022-09-23 14:14:49,212] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-09-23 14:14:49,222] {logging_mixin.py:109} INFO - [2022-09-23 14:14:49,221] {dag.py:2935} INFO - Setting next_dagrun for iykra_dag to 2022-09-22 00:00:00+00:00
+[2022-09-23 14:14:49,228] {processor.py:171} INFO - Processing /opt/airflow/dags/pushpull_iykra.py took 0.046 seconds
+[2022-09-23 14:15:19,914] {processor.py:163} INFO - Started process (PID=198) to work on /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:15:19,915] {processor.py:642} INFO - Processing file /opt/airflow/dags/pushpull_iykra.py for tasks to queue
+[2022-09-23 14:15:19,915] {logging_mixin.py:109} INFO - [2022-09-23 14:15:19,915] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:15:19,935] {processor.py:654} INFO - DAG(s) dict_keys(['iykra_dag']) retrieved from /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:15:19,939] {logging_mixin.py:109} INFO - [2022-09-23 14:15:19,939] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-09-23 14:15:19,947] {logging_mixin.py:109} INFO - [2022-09-23 14:15:19,947] {dag.py:2935} INFO - Setting next_dagrun for iykra_dag to 2022-09-22 00:00:00+00:00
+[2022-09-23 14:15:19,953] {processor.py:171} INFO - Processing /opt/airflow/dags/pushpull_iykra.py took 0.040 seconds
+[2022-09-23 14:15:50,581] {processor.py:163} INFO - Started process (PID=253) to work on /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:15:50,581] {processor.py:642} INFO - Processing file /opt/airflow/dags/pushpull_iykra.py for tasks to queue
+[2022-09-23 14:15:50,582] {logging_mixin.py:109} INFO - [2022-09-23 14:15:50,582] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:15:50,604] {processor.py:654} INFO - DAG(s) dict_keys(['iykra_dag']) retrieved from /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:15:50,610] {logging_mixin.py:109} INFO - [2022-09-23 14:15:50,610] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-09-23 14:15:50,619] {logging_mixin.py:109} INFO - [2022-09-23 14:15:50,619] {dag.py:2935} INFO - Setting next_dagrun for iykra_dag to 2022-09-22 00:00:00+00:00
+[2022-09-23 14:15:50,628] {processor.py:171} INFO - Processing /opt/airflow/dags/pushpull_iykra.py took 0.049 seconds
+[2022-09-23 14:16:21,272] {processor.py:163} INFO - Started process (PID=308) to work on /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:16:21,272] {processor.py:642} INFO - Processing file /opt/airflow/dags/pushpull_iykra.py for tasks to queue
+[2022-09-23 14:16:21,273] {logging_mixin.py:109} INFO - [2022-09-23 14:16:21,273] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:16:21,293] {processor.py:654} INFO - DAG(s) dict_keys(['iykra_dag']) retrieved from /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:16:21,297] {logging_mixin.py:109} INFO - [2022-09-23 14:16:21,297] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-09-23 14:16:21,305] {logging_mixin.py:109} INFO - [2022-09-23 14:16:21,305] {dag.py:2935} INFO - Setting next_dagrun for iykra_dag to 2022-09-23T00:00:00+00:00
+[2022-09-23 14:16:21,311] {processor.py:171} INFO - Processing /opt/airflow/dags/pushpull_iykra.py took 0.041 seconds
+[2022-09-23 14:16:52,226] {processor.py:163} INFO - Started process (PID=355) to work on /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:16:52,227] {processor.py:642} INFO - Processing file /opt/airflow/dags/pushpull_iykra.py for tasks to queue
+[2022-09-23 14:16:52,228] {logging_mixin.py:109} INFO - [2022-09-23 14:16:52,228] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:16:52,251] {processor.py:654} INFO - DAG(s) dict_keys(['iykra_dag']) retrieved from /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:16:52,257] {logging_mixin.py:109} INFO - [2022-09-23 14:16:52,257] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-09-23 14:16:52,268] {logging_mixin.py:109} INFO - [2022-09-23 14:16:52,268] {dag.py:2935} INFO - Setting next_dagrun for iykra_dag to 2022-09-23T00:00:00+00:00
+[2022-09-23 14:16:52,275] {processor.py:171} INFO - Processing /opt/airflow/dags/pushpull_iykra.py took 0.050 seconds
+[2022-09-23 14:17:22,979] {processor.py:163} INFO - Started process (PID=411) to work on /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:17:22,980] {processor.py:642} INFO - Processing file /opt/airflow/dags/pushpull_iykra.py for tasks to queue
+[2022-09-23 14:17:22,980] {logging_mixin.py:109} INFO - [2022-09-23 14:17:22,980] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:17:23,000] {processor.py:654} INFO - DAG(s) dict_keys(['iykra_dag']) retrieved from /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:17:23,004] {logging_mixin.py:109} INFO - [2022-09-23 14:17:23,004] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-09-23 14:17:23,013] {logging_mixin.py:109} INFO - [2022-09-23 14:17:23,013] {dag.py:2935} INFO - Setting next_dagrun for iykra_dag to 2022-09-23T00:00:00+00:00
+[2022-09-23 14:17:23,018] {processor.py:171} INFO - Processing /opt/airflow/dags/pushpull_iykra.py took 0.040 seconds
+[2022-09-23 14:17:53,151] {processor.py:163} INFO - Started process (PID=466) to work on /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:17:53,152] {processor.py:642} INFO - Processing file /opt/airflow/dags/pushpull_iykra.py for tasks to queue
+[2022-09-23 14:17:53,152] {logging_mixin.py:109} INFO - [2022-09-23 14:17:53,152] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:17:53,171] {processor.py:654} INFO - DAG(s) dict_keys(['iykra_dag']) retrieved from /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:17:53,176] {logging_mixin.py:109} INFO - [2022-09-23 14:17:53,176] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-09-23 14:17:53,184] {logging_mixin.py:109} INFO - [2022-09-23 14:17:53,184] {dag.py:2935} INFO - Setting next_dagrun for iykra_dag to 2022-09-23T00:00:00+00:00
+[2022-09-23 14:17:53,190] {processor.py:171} INFO - Processing /opt/airflow/dags/pushpull_iykra.py took 0.040 seconds
+[2022-09-23 14:18:23,323] {processor.py:163} INFO - Started process (PID=513) to work on /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:18:23,324] {processor.py:642} INFO - Processing file /opt/airflow/dags/pushpull_iykra.py for tasks to queue
+[2022-09-23 14:18:23,324] {logging_mixin.py:109} INFO - [2022-09-23 14:18:23,324] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:18:23,344] {processor.py:654} INFO - DAG(s) dict_keys(['iykra_dag']) retrieved from /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:18:23,349] {logging_mixin.py:109} INFO - [2022-09-23 14:18:23,349] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-09-23 14:18:23,357] {logging_mixin.py:109} INFO - [2022-09-23 14:18:23,357] {dag.py:2935} INFO - Setting next_dagrun for iykra_dag to 2022-09-23T00:00:00+00:00
+[2022-09-23 14:18:23,363] {processor.py:171} INFO - Processing /opt/airflow/dags/pushpull_iykra.py took 0.041 seconds
+[2022-09-23 14:18:53,496] {processor.py:163} INFO - Started process (PID=568) to work on /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:18:53,497] {processor.py:642} INFO - Processing file /opt/airflow/dags/pushpull_iykra.py for tasks to queue
+[2022-09-23 14:18:53,497] {logging_mixin.py:109} INFO - [2022-09-23 14:18:53,497] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:18:53,517] {processor.py:654} INFO - DAG(s) dict_keys(['iykra_dag']) retrieved from /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:18:53,522] {logging_mixin.py:109} INFO - [2022-09-23 14:18:53,521] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-09-23 14:18:53,530] {logging_mixin.py:109} INFO - [2022-09-23 14:18:53,530] {dag.py:2935} INFO - Setting next_dagrun for iykra_dag to 2022-09-23T00:00:00+00:00
+[2022-09-23 14:18:53,537] {processor.py:171} INFO - Processing /opt/airflow/dags/pushpull_iykra.py took 0.042 seconds
+[2022-09-23 14:19:23,676] {processor.py:163} INFO - Started process (PID=623) to work on /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:19:23,677] {processor.py:642} INFO - Processing file /opt/airflow/dags/pushpull_iykra.py for tasks to queue
+[2022-09-23 14:19:23,677] {logging_mixin.py:109} INFO - [2022-09-23 14:19:23,677] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:19:23,696] {processor.py:654} INFO - DAG(s) dict_keys(['iykra_dag']) retrieved from /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:19:23,700] {logging_mixin.py:109} INFO - [2022-09-23 14:19:23,700] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-09-23 14:19:23,708] {logging_mixin.py:109} INFO - [2022-09-23 14:19:23,708] {dag.py:2935} INFO - Setting next_dagrun for iykra_dag to 2022-09-23T00:00:00+00:00
+[2022-09-23 14:19:23,714] {processor.py:171} INFO - Processing /opt/airflow/dags/pushpull_iykra.py took 0.039 seconds
+[2022-09-23 14:19:54,349] {processor.py:163} INFO - Started process (PID=678) to work on /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:19:54,349] {processor.py:642} INFO - Processing file /opt/airflow/dags/pushpull_iykra.py for tasks to queue
+[2022-09-23 14:19:54,350] {logging_mixin.py:109} INFO - [2022-09-23 14:19:54,350] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:19:54,371] {processor.py:654} INFO - DAG(s) dict_keys(['iykra_dag']) retrieved from /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:19:54,376] {logging_mixin.py:109} INFO - [2022-09-23 14:19:54,376] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-09-23 14:19:54,386] {logging_mixin.py:109} INFO - [2022-09-23 14:19:54,386] {dag.py:2935} INFO - Setting next_dagrun for iykra_dag to 2022-09-23T00:00:00+00:00
+[2022-09-23 14:19:54,392] {processor.py:171} INFO - Processing /opt/airflow/dags/pushpull_iykra.py took 0.045 seconds
+[2022-09-23 14:20:24,532] {processor.py:163} INFO - Started process (PID=724) to work on /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:20:24,532] {processor.py:642} INFO - Processing file /opt/airflow/dags/pushpull_iykra.py for tasks to queue
+[2022-09-23 14:20:24,533] {logging_mixin.py:109} INFO - [2022-09-23 14:20:24,533] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:20:24,556] {processor.py:654} INFO - DAG(s) dict_keys(['iykra_dag']) retrieved from /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:20:24,561] {logging_mixin.py:109} INFO - [2022-09-23 14:20:24,561] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-09-23 14:20:24,572] {logging_mixin.py:109} INFO - [2022-09-23 14:20:24,572] {dag.py:2935} INFO - Setting next_dagrun for iykra_dag to 2022-09-23T00:00:00+00:00
+[2022-09-23 14:20:24,580] {processor.py:171} INFO - Processing /opt/airflow/dags/pushpull_iykra.py took 0.050 seconds
+[2022-09-23 14:20:55,254] {processor.py:163} INFO - Started process (PID=779) to work on /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:20:55,254] {processor.py:642} INFO - Processing file /opt/airflow/dags/pushpull_iykra.py for tasks to queue
+[2022-09-23 14:20:55,255] {logging_mixin.py:109} INFO - [2022-09-23 14:20:55,255] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:20:55,274] {processor.py:654} INFO - DAG(s) dict_keys(['iykra_dag']) retrieved from /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:20:55,279] {logging_mixin.py:109} INFO - [2022-09-23 14:20:55,279] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-09-23 14:20:55,287] {logging_mixin.py:109} INFO - [2022-09-23 14:20:55,287] {dag.py:2935} INFO - Setting next_dagrun for iykra_dag to 2022-09-23T00:00:00+00:00
+[2022-09-23 14:20:55,292] {processor.py:171} INFO - Processing /opt/airflow/dags/pushpull_iykra.py took 0.040 seconds
+[2022-09-23 14:21:25,431] {processor.py:163} INFO - Started process (PID=834) to work on /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:21:25,432] {processor.py:642} INFO - Processing file /opt/airflow/dags/pushpull_iykra.py for tasks to queue
+[2022-09-23 14:21:25,432] {logging_mixin.py:109} INFO - [2022-09-23 14:21:25,432] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:21:25,452] {processor.py:654} INFO - DAG(s) dict_keys(['iykra_dag']) retrieved from /opt/airflow/dags/pushpull_iykra.py
+[2022-09-23 14:21:25,456] {logging_mixin.py:109} INFO - [2022-09-23 14:21:25,456] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-09-23 14:21:25,466] {logging_mixin.py:109} INFO - [2022-09-23 14:21:25,466] {dag.py:2935} INFO - Setting next_dagrun for iykra_dag to 2022-09-23T00:00:00+00:00
+[2022-09-23 14:21:25,472] {processor.py:171} INFO - Processing /opt/airflow/dags/pushpull_iykra.py took 0.043 seconds
